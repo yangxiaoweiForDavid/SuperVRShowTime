@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecommendViewController">
+            <connections>
+                <outlet property="acrossView" destination="sBG-kI-zTT" id="I4p-jw-5aP"/>
+                <outlet property="bannerView" destination="g3N-j3-yef" id="ONe-5S-OhD"/>
+                <outlet property="dbleRowView" destination="A2f-rf-TJz" id="eE2-xL-FE2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3N-j3-yef" customClass="SGFocusImageFrame">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="157"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="157" id="NHC-cj-fhV"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sBG-kI-zTT">
+                    <rect key="frame" x="0.0" y="157" width="320" height="95"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="95" id="Y1F-0m-gR6"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A2f-rf-TJz">
+                    <rect key="frame" x="0.0" y="252" width="320" height="316"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="g3N-j3-yef" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2Qj-IV-9hf"/>
+                <constraint firstItem="g3N-j3-yef" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7hW-Sh-Ceb"/>
+                <constraint firstItem="sBG-kI-zTT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="TEs-cK-vux"/>
+                <constraint firstAttribute="trailing" secondItem="A2f-rf-TJz" secondAttribute="trailing" id="a0A-YE-P69"/>
+                <constraint firstAttribute="bottom" secondItem="A2f-rf-TJz" secondAttribute="bottom" id="co0-Du-E1H"/>
+                <constraint firstAttribute="trailing" secondItem="g3N-j3-yef" secondAttribute="trailing" id="eTK-1m-XIa"/>
+                <constraint firstAttribute="trailing" secondItem="sBG-kI-zTT" secondAttribute="trailing" id="gX6-eX-Aqb"/>
+                <constraint firstItem="sBG-kI-zTT" firstAttribute="top" secondItem="g3N-j3-yef" secondAttribute="bottom" id="lir-bf-7g3"/>
+                <constraint firstItem="A2f-rf-TJz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="oxO-yD-Lfb"/>
+                <constraint firstItem="A2f-rf-TJz" firstAttribute="top" secondItem="sBG-kI-zTT" secondAttribute="bottom" id="x8O-wf-dmk"/>
+            </constraints>
+            <point key="canvasLocation" x="220" y="335"/>
+        </view>
+    </objects>
+</document>

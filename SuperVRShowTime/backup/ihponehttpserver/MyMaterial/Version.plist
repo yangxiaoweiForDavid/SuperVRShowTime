@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version_1</key>
+	<string>NetServersTest.sqlite.p</string>
+	<key>version_2</key>
+	<string>NetServersTest_1.sqlite.p</string>
+</dict>
+</plist>
